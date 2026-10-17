@@ -1,0 +1,38 @@
+# ===== Python 环境与打包工作目录（体积大，不提交）=====
+work/
+
+# ===== 打包产物（用 Release 发布，不提交）=====
+output/Alarm7ZoneTool/build*/
+output/Alarm7ZoneTool/dist*/
+output/Alarm7ZoneTool/dist/
+
+# ===== 可执行文件（二进制，不提交到仓库）=====
+*.exe
+
+# ===== 配置文件（含数据库密码，绝不能提交）=====
+config.ini
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== WorkBuddy 会话内部文件 =====
+.workbuddy/
+
+# ===== 临时文件与日志 =====
+*.log
+*.ldb
+
+# ===== 其他临时产物 =====
+output/bb405cbc-d990-454e-b997-5bda4b2b59dc/
+output/brief-compose/
+
+# ===== 本地归档（含历史密码的旧版源码，不进仓库）=====
+output/_archive/
+
+# 本地一键脚本（含本机路径，不提交）
+push_to_github.bat
+
+# 本地脚本（含开发机路径，不进仓库）
+*.bat

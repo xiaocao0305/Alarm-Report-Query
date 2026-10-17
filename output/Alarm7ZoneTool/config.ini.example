@@ -1,0 +1,19 @@
+# Alarm7 防区位置查询工具 配置文件模板
+# 复制本文件为 config.ini 并填写实际路径/密码。
+# 注意：config.ini 已加入 .gitignore，不会提交到仓库，避免泄露密码。
+
+[paths]
+# Alarm7 安装目录（留空自动探测）
+alarm_dir =
+# 用户主数据库（留空则用 alarm_dir\Master.mdb）
+master_db =
+# Master 库密码（请填写现场实际密码，不要提交）
+master_pwd =
+# 历史报告目录（留空则用 alarm_dir\Rpt）
+rpt_dir =
+# Rpt 库密码（无密码留空）
+rpt_pwd =
+
+[options]
+# 单次最多展示行数
+display_limit = 3000
